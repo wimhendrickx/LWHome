@@ -1,177 +1,58 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-	<title>GPS Visualizer: Google Maps output</title>
-	<link rel="shortcut icon" href="/favicon.ico" />
-	<link rel="stylesheet" href="/gpsv.css" type="text/css" />
-	<link rel="image_src" href="http://www.gpsvisualizer.com/images/gpsvisualizer_thumbnail2.jpg" />
-	<script type="text/javascript" src="/gpsv.js"></script>
-	<meta name="robots" content="follow,noindex" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-
-<body style="margin:0px;" background="http://maps.gpsvisualizer.com/images/background_contours.gif" >
-
-<div id="header" style="background-color:#0D4E0D; padding:0px; color:#FFFFFF;">
-	<table cellspacing="0" cellpadding="0" border="0">
-	<tr align="left" valign="middle">
-		<td><a href="/"><img src="http://maps.gpsvisualizer.com/images/gpsvisualizer_465x74.gif" alt="GPS Visualizer" width="465" height="74" border="0"></a></td>
-		<td><img src="http://maps.gpsvisualizer.com/images/pixel.gif" width="12" height="1" alt=""></td>
-		<td>
-			<table cellspacing="0" cellpadding="0" border="0">
-				<tr valign="top">
-					<td class="header_link" style="padding-right:18px;" nowrap>
-						<p><a href="/map_input" style="text-transform:uppercase">Make a map</a></p>
-						<p>- <a href="/map_input?form=google">Google Maps</a></p>
-						<p>- <a href="/map_input?form=googleearth">Google Earth</a></p>
-						<p>- <a href="/map_input?form=jpg">JPG</a>/<a href="/map_input?form=png">PNG</a>/<a href="/map_input?form=svg">SVG</a></p>
-					</td>
-					<td class="header_link" style="padding-right:18px;" nowrap>
-						<p><a href="/profile_input" style="text-transform:uppercase">Make a profile</a></p>
-						<p><a href="/convert_input" style="text-transform:uppercase">Convert a file</a></p>
-						<p><a href="/draw/">Draw on a map</a></p>
-						<p><a href="/calculators">Calculators</a></p>
-					</td>
-					<td class="header_link" style="padding-right:18px;" nowrap>
-						<p><a href="/geocoding.html">Geocode addresses</a></p>
-						<p><a href="/elevation">Look up elevations</a></p>
-						<p><a href="/atlas.html">Atlas: Share a map</a></p>
-						<p><a href="/gpsbabel/">GPSBabel</a></p>
-					</td>
-					<td class="header_link" style="padding-right:18px;" nowrap>
-						<p><a href="/examples/">Examples</a></p>
-						<p><a href="/tutorials/">Help/FAQ</a></p>
-						<p><a href="/about.html">About GPSV</a></p>
-					</td>
-				</tr>
-			</table>
-		</td>
-		<td><img src="http://maps.gpsvisualizer.com/images/pixel.gif" width="20" height="1" alt=""></td>
-		<td valign="middle" style="height:64px; overflow:hidden;">
-			<div style="width:56px; min-height:56px; background:#5571bf; padding:2px; border-radius:4px; text-align:center;">
-				<a target="_blank" href="http://www.facebook.com/gpsvisualizer"><img src="http://maps.gpsvisualizer.com/images/facebook_47x10.png" width="47" height="10" style="padding-top:8px;" border="0" /></a>
-				<iframe src="//www.facebook.com/plugins/like.php?href=http://www.facebook.com/gpsvisualizer&width=47&layout=button&action=like&show_faces=false&share=false&height=35" scrolling="no" frameborder="0" style="border:none; background:none; overflow:hidden; width:47px; height:20px; padding-top:8px; padding-bottom:8px;" allowTransparency="true"></iframe>
-			</div>
-		</td>
-
-	</tr>
-	</table>
-</div>
-
-<!-- Carbon Media -->
-<script type='text/javascript'>
-	var googletag = googletag || {};
-	googletag.cmd = googletag.cmd || [];
-	(function() {
-		var gads = document.createElement('script');
-		gads.async = true;
-		gads.type = 'text/javascript';
-		var useSSL = 'https:' == document.location.protocol;
-		gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
-		var node = document.getElementsByTagName('script')[0];
-		node.parentNode.insertBefore(gads, node);
-	})();
-</script>
-
-<script type='text/javascript'>
-	googletag.cmd.push(function() {
-		googletag.defineSlot('/6544/gpsvisualizer.com/mountain_and_trail_160x600', [160, 600], 'div-gpt-ad-1446054016446-0').addService(googletag.pubads());
-		googletag.defineSlot('/6544/gpsvisualizer.com/mountain_and_trail_728x90', [728, 90], 'div-gpt-ad-1446054016446-1').addService(googletag.pubads());
-		googletag.enableServices();
-	});
-</script>
-
-
-<table cellspacing="0" cellpadding="0" border="0"><tr align="left" valign="top">
-<td id="sidebar" width="160" style="width:160px; min-width:160px; height:100%; padding:8px;">
-	<div id="sidebar_ad"><script type="text/javascript" src="/sidebar_ad.js"></script></div>
-</td>
-<td width="99%">
-
-<div style="padding:8px;">
-
-<div id="header_ad"><script type="text/javascript" src="/header_ad.js"></script></div>
-
-<br>
-
-<h3>Google Maps output</h3>
-<p>
-Your GPS data has been processed.  Your Google Map should be displayed below, and it's also <b>temporarily</b> available to <a href="/display/20151117005814-34101-map.html">view</a> or <a href="download/20151117005814-34101-map.html">download</a> from GPSVisualizer.com.  If something doesn't look like you expected it to, please <a href="mailto:bugs-10&#43;20151117005814-34101&#64;gpsvisualizer.com">contact me</a> and explain the problem. If you want to <a href="download/20151117005814-34101-map.html">save your Google Map</a> to your Web site, the HTML source of the map must be modified; the <a target="_blank" href="faq.html#section:google">GPS Visualizer FAQ</a> contains instructions on <nobr>how to do so.</nobr>
-</p>
-
-
-<table cellspacing="0" cellpadding="0" border="0" style="margin-bottom:6px;"><tr valign="middle">
-<td style="padding-left:3px;" onmouseover="this.style.backgroundColor='#E8E8FF';" onmouseout="this.style.background='none';"><a href="http://www.everytrail.com/save_gv_trip.php?partner_id=1002&url=20151117005814-34101" target="_blank" rel="nofollow"><img src="http://maps.gpsvisualizer.com/images/everytrail_bug-savethistrip.gif" width="450" height="24" alt="Save this map, add photos, &amp; share with others @ EveryTrail.com" border="0"></a></td>
-</tr></table>
-
-
-<table cellspacing="0" cellpadding="0" border="0"><tr valign="top"><td>
-<iframe src="/display/20151117005814-34101-map.html" width="700" height="681" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="background:#ffffff; border-style:inset; border-width:3px; border-color:#999999 #333333 #333333 #999999;">
-<a href="/display/20151117005814-34101-map.html">Click here for the map</a>
-</iframe>
-</td><td class="smaller" style="padding-left:20px;">
-	<p style="margin:0px 0px 3px 0px"><b>About this map:</b></p>
-<p style="margin:0px 0px 0px 0px">Center of map: 50.9963,<wbr>4.5217</p>
-	<br>
-	
-	
-	<br>
-	<nobr><a href="map_input?form=google"><b>Return to the GPSV map form</b></a></nobr><br>
-	<nobr>(Bookmark this link to save settings)</nobr>
-	<br><br>
-
-	<br>
-	<div style="width:198px; background:#004400; padding:0px; border:1px solid #002200;">
-		<table cellspacing=0 cellpadding=4 border=0><tr><td align=center>
-		<a target="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5DJG8EP248SA"><img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" alt="[Donate via PayPal]"></a>
-		</form>
-		</td></tr><tr><td><font color="#FFFFFF">
-		<p style="margin:0px 0px 5px 0px;"><b>Help keep GPS Visualizer free</b></p>
-		<p style="margin:0px;">If you find GPS Visualizer interesting, time-saving, or just plain fun, you can say "thanks" -- and encourage further development -- by clicking the button above and <a target="paypal" style="color:#FFFFFF" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5DJG8EP248SA">making a contribution</a> via PayPal.  Or, check out GPS Visualizer's <a style="color:#FFFFFF" href="http://www.amazon.com/gp/registry/?sort=priority&id=1QDE7J5SB2HYJ">Amazon.com <nobr>wish list</nobr></a>.</p>
-		</font></td></tr></table>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+	<head>
+		<base target="_top"></base>
+		<title>Google Maps dynamic GPX example</title>
+		<link rel="image_src" href="http://www.gpsvisualizer.com/examples/google_gpx-thumb.jpg" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
 		
-	</div>
+		
+	<table cellspacing="0" cellpadding="0" border="0"><tr valign="top"><td width="350">
+		
+		<iframe src="google_gpx_map.html" width="350" height="640" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="background:#FFFFFF">
+			<a href="google_gpx_map.html">Click here for the map</a>
+		</iframe>
+		
+	</td><td width="20">&nbsp;</td><td style="font:11px Verdana">
+		
+		<a href="/"><img src="/images/gpsvisualizer_200x32.gif" alt="GPS Visualizer" width=200 height=32 border=0></a>
+		<h2 style="font:15pt Arial; font-weight:bold; margin:8px 0px 8px 0px;">Generating a map from a GPX file, dynamically</h2>
+			<p style="margin:0px 0px 8px 0px;">
+				The tracks and markers on this map are pulled from the GPX file shown below.  If the data in the GPX file is edited, the map will be updated the next time it is viewed.
+			</p>
+			<p style="margin:0px 0px 8px 0px;">
+				Although waypoints in a GPX file do not contain a "label" field -- which GPS Visualizer uses to put a "permanent" label on the map next to a marker -- the map's settings include a statement that synthesizes a label field using the "name" field.  We've also added a statement to include the elevation of each waypoint in its description:
+			</p>
+			<p style="margin:0px 0px 8px 0px; font-family:Courier;">
+					<span style="color:blue">gv_options.dynamic_data</span> = {<br>
+					&nbsp;&nbsp;<span style="color:blue">url</span>:<span style="color:green">'barrett_spur.gpx'</span>,<br>
+					&nbsp;&nbsp;<span style="color:blue">synthesize_fields</span>:{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue">desc</span>:<span style="color:green">'Elevation: {ele} meters'</span>,<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue">label</span>:<span style="color:green">'{name}'</span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:blue">folder</span>:<span style="color:green">'Waypoints'</span><br>
+					&nbsp;&nbsp;},<br>
+					&nbsp;&nbsp;<span style="color:blue">track_options</span>:{<span style="color:blue">color</span>:<span style="color:green">'#0000E6'</span>,<span style="color:blue">width</span>:<span style="color:green">'3'</span>,<span style="color:blue">opacity</span>:<span style="color:green">'0.6'</span>},<br>
+					&nbsp;&nbsp;<span style="color:blue">autozoom</span>:<span style="color:green">true</span>, <span style="color:blue">zoom_adjustment</span>:<span style="color:green">0</span><br>
+					};
+					</span>
+			</p>
+
+			<p style="margin:12px 0px 8px 0px;">					
+				To create a dynamic GPX-derived map like this, just enter the URL of your GPX file into the box labeled "URL that will be loaded into the map dynamically" in GPS Visualizer's <a href="/map_input?form=google">Google Maps form</a>.
+			</p>
+			<p style="margin:12px 0px 8px 0px;">					
+				<b>NOTE:</b> With some tweaking, this same setup can be used for just about <i>any</i> XML file, not just GPX!  It will also work if the data comes from a PHP script that generates GPX-formatted output.
+			</p>
+		
+			<br><br>
+			Contents of <b>barrett_spur.gpx</b>:<br><br>
+			<iframe src="barrett_spur.gpx.txt" width="100%" height="200" marginwidth="0" marginheight="0" scrolling="yes" frameborder="0">
+			</iframe>
 	
-	<br>
+	</td></tr></table>
 	
-	<!--
-	<div style="width:180px; border:1px solid #4b6ea8;">
-	<div><img src="http://maps.gpsvisualizer.com/images/facebook_header_180x26.gif" width="180" height="26" alt="Facebook"></div>
-	<div><iframe src="http://www.facebook.com/plugins/likebox.php?id=116506895037727&amp;width=180&amp;connections=0&amp;stream=false&amp;header=true&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:62px;" allowTransparency="true"></iframe></div>
-	</div>
-	-->
-	
-	<br>
-	<br>
-	<div width="141" style="display:none; width:192px; background:#FFFFFF; padding:3px; border:1px solid #3098E2;">
-		<a target="_blank" href="/misc/link.cgi?url=http://www.everytrail.com/index.php%3Fpartner_id%3D1001"><img src="http://maps.gpsvisualizer.com/images/everytrail-135x30.gif" alt="EveryTrail.com" border="0"></a><br>
-		Create, save and share your <nobr>tracks &amp; waypoints:</nobr>
-		sign up for a <nobr><b>free</b> account</nobr> at <a target="_blank" href="/misc/link.cgi?url=http://www.everytrail.com/index.php%3Fpartner_id%3D1001">EveryTrail.com</a>.
-	</div>
+	</body>
 
-</td></tr></table>
-<br>
-
-
-
-
-<p>
-<br>
-
-
-<table width="100%" cellspacing=0 cellpadding=0 border=0><tr valign=middle>
-<td class="footer" align="left" style="border-top:1px solid #006600; padding-top:3px;">
-&copy;2003-2015 <a href="http://adamschneider.net/">Adam Schneider</a>,&nbsp;<img src="http://maps.gpsvisualizer.com/images/email-gpsv-10.gif" align="absmiddle" alt="adam [&#97;&#116;] gpsvisualizer [dot] com" style="padding-right:2px;">. <font color="#FFFFFF">E-mail: adam gpsvisualizer com.</font>
-</td>
-</tr></table>
-
-</div>
-
-</td>
-</tr></table>
-
-
-
-</body>
 </html>
