@@ -4,6 +4,11 @@
   <url>http://ridewithgps.com/routes/10711459</url>
   <time>2015-10-07T14:55:12Z</time>
   <trk>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:DisplayColor>Black</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <name>Essays of Gravel 2015</name>
     <trkseg>
       <trkpt lat="51.23109" lon="4.40497">
