@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx creator="StravaGPX" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+<wpt lat="50.53000" lon="4.42"><ele>10</ele><name>Leuven</name><sym>Trail Head</sym></wpt>
  <metadata>
   <time>2015-11-14T18:17:23Z</time>
  </metadata>
