@@ -58,7 +58,7 @@ function buildEndPoint (key) {
 }
  
 // this will get fired on inital load as well as when ever there is a change in the data
-favMovies.on("value", function(snapshot) {
+favCourses.on("value", function(snapshot) {
     var data = snapshot.val();
     var list = [];
     for (var key in data) {
