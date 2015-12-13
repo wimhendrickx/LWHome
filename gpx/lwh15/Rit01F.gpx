@@ -7,6 +7,11 @@
   <name>Bedevaartsoord Scherpenheuvel, Isabellaplein, Scherpenheuvel-Zichem</name>
 </wpt>
 <trk>
+<extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
   <name>Rit 01 F</name>
   <desc>41.9 km, 8:32</desc>
   <trkseg>
