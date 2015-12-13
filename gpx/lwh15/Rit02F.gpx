@@ -8,7 +8,12 @@
   <desc>Route des Trois Bornes, 4851 Kelmis, België</desc>
 </wpt>
 <trk>
-  <name>Bedevaartsoord Scherpenheuvel, Isabellaplein, Scherpenheuvel-Zichem - Route des Trois Bornes</name>
+<extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+  <name>Rit 02 F</name>
   <desc>84.1 km, 17:25</desc>
   <trkseg>
     <trkpt lat="50.98028" lon="4.97776"></trkpt>
