@@ -7,7 +7,12 @@
   <name>Oude Markt, 3000 Leuven</name>
 </wpt>
 <trk>
-  <name>Dinant - Oude Markt, 3000 Leuven</name>
+<extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+  <name>Rit 5 F</name>
   <desc>78.4 km, 15:59</desc>
   <trkseg>
     <trkpt lat="50.26053" lon="4.91286"></trkpt>
