@@ -9,7 +9,12 @@
   <desc>Rue Redoute, 4920 Aywaille, België</desc>
 </wpt>
 <trk>
-  <name>Route des Trois Bornes - Rue Redoute</name>
+<extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+  <name>Rit 03 F</name>
   <desc>43.5 km, 9:01</desc>
   <trkseg>
     <trkpt lat="50.75502" lon="6.02055"></trkpt>
