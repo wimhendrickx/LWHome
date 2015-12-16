@@ -7,6 +7,11 @@
   <name>Berchem, Antwerpen</name>
 </wpt>
 <trk>
+<extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:DisplayColor>Green</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
   <name>LWH6FS</name>
   <desc>48.6 km, 2:29</desc>
   <trkseg>
