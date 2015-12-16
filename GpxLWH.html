@@ -287,7 +287,7 @@
 							folder:'Waypoints'
 						}
 					},
-																						{
+					{
 						url:'gpx/lwh15/Rit05Ravel.gpx', database:false,
 						field_alias:{desc:'desc'}, // e.g.: field_alias:{name:'id',desc:'comment',folder:'category'}
 						synthesize_fields:{ // you can include YOUR document's field names in {curly brackets}; this is like field_alias, but more powerful
@@ -297,7 +297,7 @@
 							folder:'Waypoints'
 						}
 					},
-						{
+					{
 						url:'gpx/lwh15/Rit06.gpx', database:false,
 						field_alias:{desc:'desc'}, // e.g.: field_alias:{name:'id',desc:'comment',folder:'category'}
 						synthesize_fields:{ // you can include YOUR document's field names in {curly brackets}; this is like field_alias, but more powerful
@@ -306,7 +306,16 @@
 							label:'{name}',
 							folder:'Waypoints'
 						}
-
+					},	
+					{
+						url:'gpx/lwh15/Rit06FS.gpx', database:false,
+						field_alias:{desc:'desc'}, // e.g.: field_alias:{name:'id',desc:'comment',folder:'category'}
+						synthesize_fields:{ // you can include YOUR document's field names in {curly brackets}; this is like field_alias, but more powerful
+							name:'',
+							desc:'Elevation: {ele} meters',
+							label:'{name}',
+							folder:'Waypoints'
+}
 					}
 				];
 				
